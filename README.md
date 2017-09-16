@@ -2,6 +2,6 @@
 
 ## 运行效果
 
-![home1](http://oseklscmm.bkt.clouddn.com/demon/other/floatmenu1.gif)
-![home2](http://oseklscmm.bkt.clouddn.com/demon/other/floatmenu2.gif)
-![home3](http://oseklscmm.bkt.clouddn.com/demon/other/floatmenu3.gif)
+![home1](http://oseklscmm.bkt.clouddn.com/demon/other/float1.gif)
+![home2](http://oseklscmm.bkt.clouddn.com/demon/other/float2.gif)
+![home3](http://oseklscmm.bkt.clouddn.com/demon/other/float3.gif)
