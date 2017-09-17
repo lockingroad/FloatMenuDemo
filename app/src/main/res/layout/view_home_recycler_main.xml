@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/home_recycler_main_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#009688"
+        tl:tl_textAllCaps="true"
+        tl:tl_textBold="BOTH"
+        tl:tl_textsize="14sp"/>
+    <com.huiben.app.floatmenudemo.view.WrapContentHeightViewPager
+        android:id="@+id/home_recycler_main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.huiben.app.floatmenudemo.view.WrapContentHeightViewPager>
+
+</LinearLayout>

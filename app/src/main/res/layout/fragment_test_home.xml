@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/test_scroll"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#fffff0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="这是BannerView"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/home_recycler_main_sliding"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#009688"
+                tl:tl_textAllCaps="true"
+                tl:tl_textBold="BOTH"
+                tl:tl_textsize="14sp"/>
+            <com.huiben.app.floatmenudemo.view.WrapContentHeightViewPager
+                android:background="#f0f0"
+                android:id="@+id/home_recycler_main_vp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.huiben.app.floatmenudemo.view.WrapContentHeightViewPager>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/home_recycler_main_float_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#009688"
+        tl:tl_textAllCaps="true"
+        tl:tl_textBold="BOTH"
+        tl:tl_textsize="14sp"/>
+
+</FrameLayout>
