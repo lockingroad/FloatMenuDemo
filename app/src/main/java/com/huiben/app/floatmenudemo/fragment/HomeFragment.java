@@ -80,6 +80,15 @@ public class HomeFragment extends Fragment {
         });
     }
 
+    /**
+     * 主要逻辑
+     * 根据recyclerview的距离变化 来进行样式的刷新
+     *
+     * 1.来显示menu2 没有任何问题
+     * 2.显示menu1 通过属性设置有明显的卡顿  -->还可以怎么做？
+     * 3.用behavior来显示很有问题。麻烦需要引入coordinate
+     * @param dy
+     */
     public void updateFloat(int dy) {
         mainView = manager.findViewByPosition(1);
         if(mainView.getTop()>0){

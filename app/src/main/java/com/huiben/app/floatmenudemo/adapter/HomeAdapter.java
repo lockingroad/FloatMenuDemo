@@ -23,6 +23,12 @@ import butterknife.ButterKnife;
 
 /**
  * Created by liuran on 2017/9/15.
+ * 主页用recyclerview的方式可能会有问题
+ * 1. View + 2.ViewPager
+ * 2. 这里的bug是ViewPager在Recyclerview中的高度需要重新计算 计算策略用的是最大值
+ * 3. 每次viewpager滑动到新的一页 高度会重新测量 导致viewpager会滚动到最顶部
+ * 4. 用viewpager作为内容展示 下拉加载还是个问题 到时候测量岂不是更复杂？待改进
+ * 5. 推翻 更美的根本不是可滚动 所以不是viewpager 这里可能就是错误的方向
  */
 
 public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

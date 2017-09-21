@@ -15,6 +15,7 @@ import butterknife.Unbinder;
 
 /**
  * Created by liuran on 2017/9/16.
+ * 滑动的示例页
  */
 
 public class SampleFragment extends Fragment {

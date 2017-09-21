@@ -18,6 +18,10 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**start
+ * 首页是viewpager的结构
+ *
+ */
 public class HomeActivity extends AppCompatActivity {
 
 

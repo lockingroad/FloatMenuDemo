@@ -6,13 +6,11 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.huiben.app.floatmenudemo.R;
-import com.huiben.app.floatmenudemo.ViewFinish;
 import com.huiben.app.floatmenudemo.adapter.HomeBottomAdapter;
 
 import java.util.ArrayList;
@@ -24,6 +22,7 @@ import butterknife.Unbinder;
 
 /**
  * Created by liuran on 2017/9/16.
+ * 为了便于展示 采取这种初始化模式
  */
 
 public class HomeBottomFragment extends Fragment {
@@ -52,10 +51,7 @@ public class HomeBottomFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        if(getParentFragment() instanceof  TestHomeFragment){
-            ViewFinish inter= (ViewFinish) getParentFragment();
-            inter.viewCreate(view);
-        }
+        
     }
 
     private void initData() {

@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * Created by liuran on 2017/9/15.
+ * 主页最下面的列表条目内容
  */
 
 public class HomeBottomAdapter extends BaseQuickAdapter<String,BaseViewHolder> {
